@@ -24,13 +24,15 @@ A modern, user-friendly Discord Rich Presence and cover art UI for Cemu Wii U em
 #### For EXE (Recommended for most users)
 - Download the release ZIP from GitHub and extract all files to a folder
 - **Navigate directly into the extracted folder** (not a parent folder)
-- **Double-click `main.exe` (or `WiiPresenceU.exe` if renamed) to launch the app**
+- **Go into the `dist` folder and double-click `main.exe` to launch the app**
+- You do NOT need to run any Python scripts or install Python manually
 - On first launch, set your Cemu.exe path when prompted
 
 #### For Python Script (Advanced/Developers)
 - Download and extract all files to a folder
-- Run `main.py` (not `WPU_UI.py`) (requires Python 3.8+, Pillow, pypresence, psutil, requests, beautifulsoup4, pywin32)
-- On first launch, set your Cemu.exe path when prompted
+- Install the required Python packages (Pillow, pypresence, psutil, requests, beautifulsoup4, pywin32)
+- (For development only) You may run `main.py` if you want to test or modify the code
+- Most users should only use the EXE in the `dist` folder
 
 ### 2. Adding Custom Cover Art & Discord Assets
 - Launch a game in Cemu
